@@ -15,3 +15,9 @@ After each traversal of a test data instance in the tree, its predicted classifi
 
 # Running the Accuracy Test Many Times to decrease variance
 To decrease variance for smaller data sets, I run the test many (like 1000) times and get the average accuracy of that. For tic.data and car.data datasets, I found the accuracy to be a less variant, hovering around ~83% and ~88% respectively. For mush.data, a large dataset, I ran the accuracy test 20 times and would nearly get 100% each time.
+
+# To use
+1. Download this repository
+2. Go to this repository in terminal
+3. python3 dtree.py
+
